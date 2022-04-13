@@ -28,10 +28,10 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "devchain": "node --max_old_space_size=2560 Truffle/scripts/devChain.js",
+    "devchain": "node --max_old_space_size=500 Truffle/scripts/devChain.js",
     "connect": "moralis-admin-cli connect-local-devchain",
     "watch:events": "moralis-admin-cli add-contract",
-    "deploy": "node --max_old_space_size=2560 Truffle/scripts/deployContract.js"
+    "deploy": "node --max_old_space_size=500 Truffle/scripts/deployContract.js"
   },
   "eslintConfig": {
     "extends": [
